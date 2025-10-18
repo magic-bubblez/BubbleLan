@@ -1,10 +1,10 @@
-# 🫧 BubbleLan Programming Language
+# BubbleLan Programming Language
 
 A simple toy programming language written in Python with its own syntax, REPL and file execution system. Supports variables, lists, arithmetic operations, conditionals, and loops.
 
 ### Run a BubbleLan file:
 ```bash
-python bubblelan.py hello.bub
+bubblelan.py hello.bub
 ```
 
 ### Start interactive REPL:
