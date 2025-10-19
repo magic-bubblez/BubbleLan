@@ -1,0 +1,17 @@
+name = "bubbles"
+say "Welcome " + name + "!"
+
+say " "
+
+x = 10970
+y = 280
+say "Sum is " + x+y
+say " "
+
+if x > y then say "x wins" else say "y wins" 
+if name == "bubbles" then say "You are awesome!" else say "Who are you?"
+say " " 
+
+l = [12,45,3,78]
+for i in l: if i<50 then say i*2 else say i/2 
+say " " 
