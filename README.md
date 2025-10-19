@@ -2,11 +2,22 @@
 
 A simple toy programming language written in Python with its own syntax, REPL and file execution system. Supports variables, lists, arithmetic operations, conditionals, and loops.
 
+> Quick start — requirements & how to run
+- Requires: Python 3.8+ installed.
+- To run without installing:
+  - Run a file: `python bubblelan.py examples/hello.bub`
+  - Start REPL: `python bubblelan.py`
+  
+- To install a global `bubblelan` command (macOS / Linux):
+  1. Make file executable: `chmod +x install.sh bubblelan`
+  2. Run installer: `./install.sh`  # to create symlink in /usr/local/bin
+  3. Verify: `which bubblelan` → then use `bubblelan` or `bubblelan file.bub`
+- To uninstall: `sudo rm -f /usr/local/bin/bubblelan`
+
 ### Run a BubbleLan file:
 ```bash
 bubblelan.py hello.bub
 ```
-
 ### Start interactive REPL:
 ```bash
 bubblelan 
