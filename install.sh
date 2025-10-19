@@ -15,7 +15,7 @@ echo "Creating symbolic link..."
 sudo ln -sf "$SCRIPT_DIR/bubblelan" "$INSTALL_DIR/bubblelan"
 
 if [ $? -eq 0 ]; then
-    echo "✅ BubbleLan installed successfully!"
+    echo "BubbleLan installed successfully!"
     echo ""
     echo "You can now use 'bubblelan' command anywhere:"
     echo "  bubblelan                 # Start REPL"
@@ -23,6 +23,6 @@ if [ $? -eq 0 ]; then
     echo ""
     echo "Try it: bubblelan examples/hello.bub"
 else
-    echo "❌ Installation failed. You may need sudo permissions."
+    echo "Installation failed. You may need sudo permissions."
     exit 1
 fi
