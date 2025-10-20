@@ -16,7 +16,7 @@ A simple toy programming language written in Python with its own syntax, REPL an
 
 ### Run a BubbleLan file:
 ```bash
-bubblelan.py hello.bub
+bubblelan hello.bub
 ```
 ### Start interactive REPL:
 ```bash
